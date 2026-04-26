@@ -1,0 +1,146 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-coffee: var(--coffee);
+  --color-coffee-dark: var(--coffee-dark);
+  --color-cream: var(--cream);
+  --color-sand: var(--sand);
+  --font-display: var(--font-display);
+  --font-serif: var(--font-serif);
+}
+
+:root {
+  --radius: 0.875rem;
+
+  /* Beige & coffee palette */
+  --background: oklch(0.96 0.018 80);          /* warm cream */
+  --foreground: oklch(0.28 0.04 50);           /* deep coffee */
+
+  --card: oklch(0.98 0.012 85);
+  --card-foreground: oklch(0.28 0.04 50);
+  --popover: oklch(0.98 0.012 85);
+  --popover-foreground: oklch(0.28 0.04 50);
+
+  --primary: oklch(0.42 0.06 50);              /* coffee */
+  --primary-foreground: oklch(0.97 0.015 85);
+
+  --secondary: oklch(0.88 0.025 75);           /* sand */
+  --secondary-foreground: oklch(0.32 0.05 50);
+
+  --muted: oklch(0.92 0.02 80);
+  --muted-foreground: oklch(0.48 0.04 55);
+
+  --accent: oklch(0.72 0.08 60);               /* warm caramel */
+  --accent-foreground: oklch(0.98 0.012 85);
+
+  --destructive: oklch(0.55 0.18 27);
+  --destructive-foreground: oklch(0.98 0.01 80);
+
+  --border: oklch(0.85 0.025 70);
+  --input: oklch(0.88 0.025 75);
+  --ring: oklch(0.55 0.07 55);
+
+  --coffee: oklch(0.35 0.05 50);
+  --coffee-dark: oklch(0.22 0.04 45);
+  --cream: oklch(0.96 0.018 85);
+  --sand: oklch(0.82 0.04 70);
+
+  --font-display: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+
+  --shadow-soft: 0 10px 30px -12px oklch(0.30 0.06 50 / 0.25);
+  --shadow-elegant: 0 20px 50px -20px oklch(0.30 0.06 50 / 0.35);
+  --gradient-warm: linear-gradient(135deg, oklch(0.96 0.02 85), oklch(0.86 0.04 70));
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-serif);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Marquee */
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+.animate-marquee-slow {
+  animation: marquee 120s linear infinite;
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up { animation: fade-in-up 0.7s ease-out both; }
+
+@keyframes slide-in-right {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(0); }
+}
+.animate-slide-in-right { animation: slide-in-right 0.35s ease-out both; }
+
+.polaroid {
+  background: var(--card);
+  padding: 14px 14px 28px;
+  box-shadow: var(--shadow-soft);
+  transform: rotate(-2deg);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.polaroid:hover {
+  transform: rotate(0deg) translateY(-6px) scale(1.03);
+  box-shadow: var(--shadow-elegant);
+}
+.polaroid:nth-child(even) { transform: rotate(2deg); }
+.polaroid:nth-child(even):hover { transform: rotate(0deg) translateY(-6px) scale(1.03); }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.shadow-soft { box-shadow: var(--shadow-soft); }
+.shadow-elegant { box-shadow: var(--shadow-elegant); }
+.bg-gradient-warm { background: var(--gradient-warm); }
