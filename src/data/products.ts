@@ -11,58 +11,132 @@ import catCajas from "@/assets/categorias/cajas.jpg";
 
 // Productos - Gusticos
 import gusticos1 from "@/assets/productos/gusticos/gusticos-1.jpg";
+import gusticos1b from "@/assets/productos/gusticos/gusticos-1b.jpg";
+import gusticos1c from "@/assets/productos/gusticos/gusticos-1c.jpg";
 import gusticos2 from "@/assets/productos/gusticos/gusticos-2.jpg";
+import gusticos2b from "@/assets/productos/gusticos/gusticos-2b.jpg";
+import gusticos2c from "@/assets/productos/gusticos/gusticos-2c.jpg";
 import gusticos3 from "@/assets/productos/gusticos/gusticos-3.jpg";
+import gusticos3b from "@/assets/productos/gusticos/gusticos-3b.jpg";
+import gusticos3c from "@/assets/productos/gusticos/gusticos-3c.jpg";
 import gusticos4 from "@/assets/productos/gusticos/gusticos-4.jpg";
+import gusticos4b from "@/assets/productos/gusticos/gusticos-4b.jpg";
+import gusticos4c from "@/assets/productos/gusticos/gusticos-4c.jpg";
 
 // Productos - Detalles
 import detalles1 from "@/assets/productos/detalles/detalles-1.jpg";
+import detalles1b from "@/assets/productos/detalles/detalles-1b.jpg";
+import detalles1c from "@/assets/productos/detalles/detalles-1c.jpg";
 import detalles2 from "@/assets/productos/detalles/detalles-2.jpg";
+import detalles2b from "@/assets/productos/detalles/detalles-2b.jpg";
+import detalles2c from "@/assets/productos/detalles/detalles-2c.jpg";
 import detalles3 from "@/assets/productos/detalles/detalles-3.jpg";
+import detalles3b from "@/assets/productos/detalles/detalles-3b.jpg";
+import detalles3c from "@/assets/productos/detalles/detalles-3c.jpg";
 import detalles4 from "@/assets/productos/detalles/detalles-4.jpg";
+import detalles4b from "@/assets/productos/detalles/detalles-4b.jpg";
+import detalles4c from "@/assets/productos/detalles/detalles-4c.jpg";
 
 // Productos - Personalizados
 import personalizados1 from "@/assets/productos/personalizados/personalizados-1.jpg";
+import personalizados1b from "@/assets/productos/personalizados/personalizados-1b.jpg";
+import personalizados1c from "@/assets/productos/personalizados/personalizados-1c.jpg";
 import personalizados2 from "@/assets/productos/personalizados/personalizados-2.jpg";
+import personalizados2b from "@/assets/productos/personalizados/personalizados-2b.jpg";
+import personalizados2c from "@/assets/productos/personalizados/personalizados-2c.jpg";
 import personalizados3 from "@/assets/productos/personalizados/personalizados-3.jpg";
+import personalizados3b from "@/assets/productos/personalizados/personalizados-3b.jpg";
+import personalizados3c from "@/assets/productos/personalizados/personalizados-3c.jpg";
 import personalizados4 from "@/assets/productos/personalizados/personalizados-4.jpg";
+import personalizados4b from "@/assets/productos/personalizados/personalizados-4b.jpg";
+import personalizados4c from "@/assets/productos/personalizados/personalizados-4c.jpg";
 import personalizados5 from "@/assets/productos/personalizados/personalizados-5.jpg";
+import personalizados5b from "@/assets/productos/personalizados/personalizados-5b.jpg";
+import personalizados5c from "@/assets/productos/personalizados/personalizados-5c.jpg";
 
 // Productos - Ramos rosas eternas
 import ramos1 from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-1.jpg";
+import ramos1b from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-1b.jpg";
+import ramos1c from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-1c.jpg";
 import ramos2 from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-2.jpg";
+import ramos2b from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-2b.jpg";
+import ramos2c from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-2c.jpg";
 import ramos3 from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-3.jpg";
+import ramos3b from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-3b.jpg";
+import ramos3c from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-3c.jpg";
 import ramos4 from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-4.jpg";
+import ramos4b from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-4b.jpg";
+import ramos4c from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-4c.jpg";
 
 // Productos - Papel coreano
 import papel1 from "@/assets/productos/papel-coreano/papel-coreano-1.jpg";
+import papel1b from "@/assets/productos/papel-coreano/papel-coreano-1b.jpg";
+import papel1c from "@/assets/productos/papel-coreano/papel-coreano-1c.jpg";
 import papel2 from "@/assets/productos/papel-coreano/papel-coreano-2.jpg";
+import papel2b from "@/assets/productos/papel-coreano/papel-coreano-2b.jpg";
+import papel2c from "@/assets/productos/papel-coreano/papel-coreano-2c.jpg";
 import papel3 from "@/assets/productos/papel-coreano/papel-coreano-3.jpg";
+import papel3b from "@/assets/productos/papel-coreano/papel-coreano-3b.jpg";
+import papel3c from "@/assets/productos/papel-coreano/papel-coreano-3c.jpg";
 import papel4 from "@/assets/productos/papel-coreano/papel-coreano-4.jpg";
+import papel4b from "@/assets/productos/papel-coreano/papel-coreano-4b.jpg";
+import papel4c from "@/assets/productos/papel-coreano/papel-coreano-4c.jpg";
 
 // Productos - Cintas satín
 import cintas1 from "@/assets/productos/cintas-satin/cintas-satin-1.jpg";
+import cintas1b from "@/assets/productos/cintas-satin/cintas-satin-1b.jpg";
+import cintas1c from "@/assets/productos/cintas-satin/cintas-satin-1c.jpg";
 import cintas2 from "@/assets/productos/cintas-satin/cintas-satin-2.jpg";
+import cintas2b from "@/assets/productos/cintas-satin/cintas-satin-2b.jpg";
+import cintas2c from "@/assets/productos/cintas-satin/cintas-satin-2c.jpg";
 import cintas3 from "@/assets/productos/cintas-satin/cintas-satin-3.jpg";
+import cintas3b from "@/assets/productos/cintas-satin/cintas-satin-3b.jpg";
+import cintas3c from "@/assets/productos/cintas-satin/cintas-satin-3c.jpg";
 import cintas4 from "@/assets/productos/cintas-satin/cintas-satin-4.jpg";
+import cintas4b from "@/assets/productos/cintas-satin/cintas-satin-4b.jpg";
+import cintas4c from "@/assets/productos/cintas-satin/cintas-satin-4c.jpg";
 
 // Productos - Flores eternas al por mayor
 import floresMayor1 from "@/assets/productos/flores-eternas-mayor/flores-eternas-mayor-1.jpg";
+import floresMayor1b from "@/assets/productos/flores-eternas-mayor/flores-eternas-mayor-1b.jpg";
+import floresMayor1c from "@/assets/productos/flores-eternas-mayor/flores-eternas-mayor-1c.jpg";
 import floresMayor2 from "@/assets/productos/flores-eternas-mayor/flores-eternas-mayor-2.jpg";
+import floresMayor2b from "@/assets/productos/flores-eternas-mayor/flores-eternas-mayor-2b.jpg";
+import floresMayor2c from "@/assets/productos/flores-eternas-mayor/flores-eternas-mayor-2c.jpg";
 import floresMayor3 from "@/assets/productos/flores-eternas-mayor/flores-eternas-mayor-3.jpg";
+import floresMayor3b from "@/assets/productos/flores-eternas-mayor/flores-eternas-mayor-3b.jpg";
+import floresMayor3c from "@/assets/productos/flores-eternas-mayor/flores-eternas-mayor-3c.jpg";
 import floresMayor4 from "@/assets/productos/flores-eternas-mayor/flores-eternas-mayor-4.jpg";
+import floresMayor4b from "@/assets/productos/flores-eternas-mayor/flores-eternas-mayor-4b.jpg";
+import floresMayor4c from "@/assets/productos/flores-eternas-mayor/flores-eternas-mayor-4c.jpg";
 
 // Productos - Topper
 import topper1 from "@/assets/productos/topper/topper-1.jpg";
+import topper1b from "@/assets/productos/topper/topper-1b.jpg";
+import topper1c from "@/assets/productos/topper/topper-1c.jpg";
 import topper2 from "@/assets/productos/topper/topper-2.jpg";
+import topper2b from "@/assets/productos/topper/topper-2b.jpg";
+import topper2c from "@/assets/productos/topper/topper-2c.jpg";
 import topper3 from "@/assets/productos/topper/topper-3.jpg";
+import topper3b from "@/assets/productos/topper/topper-3b.jpg";
+import topper3c from "@/assets/productos/topper/topper-3c.jpg";
 import topper4 from "@/assets/productos/topper/topper-4.jpg";
+import topper4b from "@/assets/productos/topper/topper-4b.jpg";
+import topper4c from "@/assets/productos/topper/topper-4c.jpg";
 
 // Productos - Cajas
 import cajas1 from "@/assets/productos/cajas/cajas-1.jpg";
+import cajas1b from "@/assets/productos/cajas/cajas-1b.jpg";
+import cajas1c from "@/assets/productos/cajas/cajas-1c.jpg";
 import cajas2 from "@/assets/productos/cajas/cajas-2.jpg";
+import cajas2b from "@/assets/productos/cajas/cajas-2b.jpg";
+import cajas2c from "@/assets/productos/cajas/cajas-2c.jpg";
 import cajas3 from "@/assets/productos/cajas/cajas-3.jpg";
+import cajas3b from "@/assets/productos/cajas/cajas-3b.jpg";
+import cajas3c from "@/assets/productos/cajas/cajas-3c.jpg";
 import cajas4 from "@/assets/productos/cajas/cajas-4.jpg";
+import cajas4b from "@/assets/productos/cajas/cajas-4b.jpg";
+import cajas4c from "@/assets/productos/cajas/cajas-4c.jpg";
 
 export type Product = {
   id: string;
@@ -99,59 +173,59 @@ const make = (
 
 export const products: Product[] = [
   ...make("gusticos", [
-    { id: "gusticos-1", name: "Caja Antojo Dulce", price: 65000, description: "Selección de chocolates artesanales y galletas finas.", images: [gusticos1] },
-    { id: "gusticos-2", name: "Cesta Café & Cacao", price: 89000, description: "Café de origen, bombones y dulces premium.", images: [gusticos2] },
-    { id: "gusticos-3", name: "Snack Box Romántica", price: 55000, description: "Mix de snacks gourmet en empaque vintage.", images: [gusticos3] },
-    { id: "gusticos-4", name: "Picnic Vintage", price: 120000, description: "Cesta completa para una tarde inolvidable.", images: [gusticos4] },
+    { id: "gusticos-1", name: "Caja Antojo Dulce", price: 65000, description: "Selección de chocolates artesanales y galletas finas.", images: [gusticos1, gusticos1b, gusticos1c] },
+    { id: "gusticos-2", name: "Cesta Café & Cacao", price: 89000, description: "Café de origen, bombones y dulces premium.", images: [gusticos2, gusticos2b, gusticos2c] },
+    { id: "gusticos-3", name: "Snack Box Romántica", price: 55000, description: "Mix de snacks gourmet en empaque vintage.", images: [gusticos3, gusticos3b, gusticos3c] },
+    { id: "gusticos-4", name: "Picnic Vintage", price: 120000, description: "Cesta completa para una tarde inolvidable.", images: [gusticos4, gusticos4b, gusticos4c] },
   ]),
   ...make("detalles", [
-    { id: "detalles-1", name: "Mini Caja Sorpresa", price: 35000, description: "Pequeño detalle con flor seca y cinta de satín.", images: [detalles1] },
-    { id: "detalles-2", name: "Sobre Romántico", price: 22000, description: "Tarjeta artesanal con dedicatoria personalizada.", images: [detalles2] },
-    { id: "detalles-3", name: "Detalle Aroma", price: 48000, description: "Vela de soya y jabón artesanal.", images: [detalles3] },
-    { id: "detalles-4", name: "Mini Bouquet Seco", price: 42000, description: "Ramillete de flores secas en kraft.", images: [detalles4] },
+    { id: "detalles-1", name: "Mini Caja Sorpresa", price: 35000, description: "Pequeño detalle con flor seca y cinta de satín.", images: [detalles1, detalles1b, detalles1c] },
+    { id: "detalles-2", name: "Sobre Romántico", price: 22000, description: "Tarjeta artesanal con dedicatoria personalizada.", images: [detalles2, detalles2b, detalles2c] },
+    { id: "detalles-3", name: "Detalle Aroma", price: 48000, description: "Vela de soya y jabón artesanal.", images: [detalles3, detalles3b, detalles3c] },
+    { id: "detalles-4", name: "Mini Bouquet Seco", price: 42000, description: "Ramillete de flores secas en kraft.", images: [detalles4, detalles4b, detalles4c] },
   ]),
   ...make("personalizados", [
-    { id: "personalizados-1", name: "Caja Grabada en Madera", price: 95000, description: "Caja personalizada con nombre o frase grabada.", images: [personalizados1] },
-    { id: "personalizados-2", name: "Taza con Nombre", price: 38000, description: "Taza cerámica personalizada en empaque elegante.", images: [personalizados2] },
-    { id: "personalizados-3", name: "Cuadro Romántico", price: 75000, description: "Lámina personalizada con tipografía vintage.", images: [personalizados3] },
-    { id: "personalizados-4", name: "Llavero a la Medida", price: 28000, description: "Llavero en cuero con grabado láser.", images: [personalizados4] },
-    { id: "personalizados-5", name: "Niño lindo", price: 35000, description: "Un gustico de mi esposa y mio.", images: [personalizados5] },
+    { id: "personalizados-1", name: "Caja Grabada en Madera", price: 95000, description: "Caja personalizada con nombre o frase grabada.", images: [personalizados1, personalizados1b, personalizados1c] },
+    { id: "personalizados-2", name: "Taza con Nombre", price: 38000, description: "Taza cerámica personalizada en empaque elegante.", images: [personalizados2, personalizados2b, personalizados2c] },
+    { id: "personalizados-3", name: "Cuadro Romántico", price: 75000, description: "Lámina personalizada con tipografía vintage.", images: [personalizados3, personalizados3b, personalizados3c] },
+    { id: "personalizados-4", name: "Llavero a la Medida", price: 28000, description: "Llavero en cuero con grabado láser.", images: [personalizados4, personalizados4b, personalizados4c] },
+    { id: "personalizados-5", name: "Niño lindo", price: 35000, description: "Un gustico de mi esposa y mio.", images: [personalizados5, personalizados5b, personalizados5c] },
   ]),
   ...make("ramos-rosas-eternas", [
-    { id: "ramos-rosas-eternas-1", name: "Ramo Eterno Crema", price: 180000, description: "12 rosas preservadas en envoltura kraft.", images: [ramos1] },
-    { id: "ramos-rosas-eternas-2", name: "Ramo Café Vintage", price: 195000, description: "Rosas eternas tonos coffee con satín.", images: [ramos2] },
-    { id: "ramos-rosas-eternas-3", name: "Mini Ramo Eterno", price: 95000, description: "6 rosas preservadas, perfectas para regalar.", images: [ramos3] },
-    { id: "ramos-rosas-eternas-4", name: "Ramo XL Romántico", price: 290000, description: "24 rosas eternas con acabado premium.", images: [ramos4] },
+    { id: "ramos-rosas-eternas-1", name: "Ramo Eterno Crema", price: 180000, description: "12 rosas preservadas en envoltura kraft.", images: [ramos1, ramos1b, ramos1c] },
+    { id: "ramos-rosas-eternas-2", name: "Ramo Café Vintage", price: 195000, description: "Rosas eternas tonos coffee con satín.", images: [ramos2, ramos2b, ramos2c] },
+    { id: "ramos-rosas-eternas-3", name: "Mini Ramo Eterno", price: 95000, description: "6 rosas preservadas, perfectas para regalar.", images: [ramos3, ramos3b, ramos3c] },
+    { id: "ramos-rosas-eternas-4", name: "Ramo XL Romántico", price: 290000, description: "24 rosas eternas con acabado premium.", images: [ramos4, ramos4b, ramos4c] },
   ]),
   ...make("papel-coreano", [
-    { id: "papel-coreano-1", name: "Papel Coreano Beige", price: 12000, description: "Pliego premium acabado mate.", images: [papel1] },
-    { id: "papel-coreano-2", name: "Papel Coreano Café", price: 12000, description: "Pliego tono coffee, ideal para envoltura.", images: [papel2] },
-    { id: "papel-coreano-3", name: "Pack 10 Pliegos", price: 95000, description: "Surtido en tonos beige y coffee.", images: [papel3] },
-    { id: "papel-coreano-4", name: "Papel Coreano Crema", price: 12000, description: "Pliego color crema vainilla.", images: [papel4] },
+    { id: "papel-coreano-1", name: "Papel Coreano Beige", price: 12000, description: "Pliego premium acabado mate.", images: [papel1, papel1b, papel1c] },
+    { id: "papel-coreano-2", name: "Papel Coreano Café", price: 12000, description: "Pliego tono coffee, ideal para envoltura.", images: [papel2, papel2b, papel2c] },
+    { id: "papel-coreano-3", name: "Pack 10 Pliegos", price: 95000, description: "Surtido en tonos beige y coffee.", images: [papel3, papel3b, papel3c] },
+    { id: "papel-coreano-4", name: "Papel Coreano Crema", price: 12000, description: "Pliego color crema vainilla.", images: [papel4, papel4b, papel4c] },
   ]),
   ...make("cintas-satin", [
-    { id: "cintas-satin-1", name: "Cinta Satín Crema 2.5cm", price: 8000, description: "Rollo de 10m, acabado brillante.", images: [cintas1] },
-    { id: "cintas-satin-2", name: "Cinta Satín Café 4cm", price: 12000, description: "Rollo de 10m tono coffee.", images: [cintas2] },
-    { id: "cintas-satin-3", name: "Cinta Doble Faz Beige", price: 15000, description: "Rollo de 10m doble faz premium.", images: [cintas3] },
-    { id: "cintas-satin-4", name: "Pack Cintas Surtidas", price: 45000, description: "5 rollos en tonos beige y café.", images: [cintas4] },
+    { id: "cintas-satin-1", name: "Cinta Satín Crema 2.5cm", price: 8000, description: "Rollo de 10m, acabado brillante.", images: [cintas1, cintas1b, cintas1c] },
+    { id: "cintas-satin-2", name: "Cinta Satín Café 4cm", price: 12000, description: "Rollo de 10m tono coffee.", images: [cintas2, cintas2b, cintas2c] },
+    { id: "cintas-satin-3", name: "Cinta Doble Faz Beige", price: 15000, description: "Rollo de 10m doble faz premium.", images: [cintas3, cintas3b, cintas3c] },
+    { id: "cintas-satin-4", name: "Pack Cintas Surtidas", price: 45000, description: "5 rollos en tonos beige y café.", images: [cintas4, cintas4b, cintas4c] },
   ]),
   ...make("flores-eternas-mayor", [
-    { id: "flores-eternas-mayor-1", name: "Caja 25 Rosas Eternas", price: 350000, description: "Rosas preservadas grado A para mayoristas.", images: [floresMayor1] },
-    { id: "flores-eternas-mayor-2", name: "Caja 50 Rosas Eternas", price: 650000, description: "Pack mayorista tonos crema y café.", images: [floresMayor2] },
-    { id: "flores-eternas-mayor-3", name: "Hortensia Preservada", price: 85000, description: "Cabeza de hortensia preservada por unidad.", images: [floresMayor3] },
-    { id: "flores-eternas-mayor-4", name: "Pack Flores Mixtas", price: 220000, description: "Surtido para arreglos profesionales.", images: [floresMayor4] },
+    { id: "flores-eternas-mayor-1", name: "Caja 25 Rosas Eternas", price: 350000, description: "Rosas preservadas grado A para mayoristas.", images: [floresMayor1, floresMayor1b, floresMayor1c] },
+    { id: "flores-eternas-mayor-2", name: "Caja 50 Rosas Eternas", price: 650000, description: "Pack mayorista tonos crema y café.", images: [floresMayor2, floresMayor2b, floresMayor2c] },
+    { id: "flores-eternas-mayor-3", name: "Hortensia Preservada", price: 85000, description: "Cabeza de hortensia preservada por unidad.", images: [floresMayor3, floresMayor3b, floresMayor3c] },
+    { id: "flores-eternas-mayor-4", name: "Pack Flores Mixtas", price: 220000, description: "Surtido para arreglos profesionales.", images: [floresMayor4, floresMayor4b, floresMayor4c] },
   ]),
   ...make("topper", [
-    { id: "topper-1", name: "Topper Caligrafía Dorada", price: 25000, description: "Topper personalizable con nombre.", images: [topper1] },
-    { id: "topper-2", name: "Topper Feliz Cumpleaños", price: 22000, description: "Diseño vintage en madera.", images: [topper2] },
-    { id: "topper-3", name: "Topper Romántico", price: 28000, description: "Para bodas y aniversarios.", images: [topper3] },
-    { id: "topper-4", name: "Topper Mini Pack", price: 45000, description: "Set de 3 toppers decorativos.", images: [topper4] },
+    { id: "topper-1", name: "Topper Caligrafía Dorada", price: 25000, description: "Topper personalizable con nombre.", images: [topper1, topper1b, topper1c] },
+    { id: "topper-2", name: "Topper Feliz Cumpleaños", price: 22000, description: "Diseño vintage en madera.", images: [topper2, topper2b, topper2c] },
+    { id: "topper-3", name: "Topper Romántico", price: 28000, description: "Para bodas y aniversarios.", images: [topper3, topper3b, topper3c] },
+    { id: "topper-4", name: "Topper Mini Pack", price: 45000, description: "Set de 3 toppers decorativos.", images: [topper4, topper4b, topper4c] },
   ]),
   ...make("cajas", [
-    { id: "cajas-1", name: "Caja Premium Beige", price: 32000, description: "Caja rígida con cinta de satín.", images: [cajas1] },
-    { id: "cajas-2", name: "Caja Kraft Vintage", price: 26000, description: "Caja kraft con detalle natural.", images: [cajas2] },
-    { id: "cajas-3", name: "Caja Redonda Café", price: 38000, description: "Caja redonda tono coffee con tapa.", images: [cajas3] },
-    { id: "cajas-4", name: "Set 3 Cajas Apilables", price: 85000, description: "Trío de cajas en gradiente beige.", images: [cajas4] },
+    { id: "cajas-1", name: "Caja Premium Beige", price: 32000, description: "Caja rígida con cinta de satín.", images: [cajas1, cajas1b, cajas1c] },
+    { id: "cajas-2", name: "Caja Kraft Vintage", price: 26000, description: "Caja kraft con detalle natural.", images: [cajas2, cajas2b, cajas2c] },
+    { id: "cajas-3", name: "Caja Redonda Café", price: 38000, description: "Caja redonda tono coffee con tapa.", images: [cajas3, cajas3b, cajas3c] },
+    { id: "cajas-4", name: "Set 3 Cajas Apilables", price: 85000, description: "Trío de cajas en gradiente beige.", images: [cajas4, cajas4b, cajas4c] },
   ]),
 ];
 
