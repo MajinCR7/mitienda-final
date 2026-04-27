@@ -26,6 +26,7 @@ import personalizados1 from "@/assets/productos/personalizados/personalizados-1.
 import personalizados2 from "@/assets/productos/personalizados/personalizados-2.jpg";
 import personalizados3 from "@/assets/productos/personalizados/personalizados-3.jpg";
 import personalizados4 from "@/assets/productos/personalizados/personalizados-4.jpg";
+import personalizados5 from "@/assets/productos/personalizados/personalizados-4.jpg";
 
 // Productos - Ramos rosas eternas
 import ramos1 from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-1.jpg";
@@ -114,6 +115,7 @@ export const products: Product[] = [
     { id: "personalizados-2", name: "Taza con Nombre", price: 38000, description: "Taza cerámica personalizada en empaque elegante.", images: [personalizados2] },
     { id: "personalizados-3", name: "Cuadro Romántico", price: 75000, description: "Lámina personalizada con tipografía vintage.", images: [personalizados3] },
     { id: "personalizados-4", name: "Llavero a la Medida", price: 28000, description: "Llavero en cuero con grabado láser.", images: [personalizados4] },
+    { id: "personalizados-5", name: "Niño lindo", price: 35000, description: "Un gustico de mi esposa y mio.", images: [personalizados5] },
   ]),
   ...make("ramos-rosas-eternas", [
     { id: "ramos-rosas-eternas-1", name: "Ramo Eterno Crema", price: 180000, description: "12 rosas preservadas en envoltura kraft.", images: [ramos1] },
