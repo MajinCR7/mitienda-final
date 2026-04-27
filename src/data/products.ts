@@ -26,7 +26,7 @@ import personalizados1 from "@/assets/productos/personalizados/personalizados-1.
 import personalizados2 from "@/assets/productos/personalizados/personalizados-2.jpg";
 import personalizados3 from "@/assets/productos/personalizados/personalizados-3.jpg";
 import personalizados4 from "@/assets/productos/personalizados/personalizados-4.jpg";
-import personalizados5 from "@/assets/productos/personalizados/personalizados-4.jpg";
+import personalizados5 from "@/assets/productos/personalizados/personalizados-5.jpg";
 
 // Productos - Ramos rosas eternas
 import ramos1 from "@/assets/productos/ramos-rosas-eternas/ramos-rosas-eternas-1.jpg";
