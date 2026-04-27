@@ -236,4 +236,5 @@ export const getProductsByCategory = (slug: string) => products.filter((p) => p.
 export const formatCOP = (n: number) =>
   new Intl.NumberFormat("es-CO", { style: "currency", currency: "COP", maximumFractionDigits: 0 }).format(n);
 
-export const WHATSAPP_PHONE = "573012832055";
+export const WHATSAPP_PHONE = "573012832055"; 
+ 
